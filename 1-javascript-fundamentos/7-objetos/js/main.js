@@ -12,3 +12,13 @@ const objeto = {
     telefone: '843-469-9199',
   }
 }
+
+
+const produto = {
+  codigo: 1,
+  nome: "Bolacha",
+  categoria: "Alimento",
+  tipo: "Doce",
+  preco: 2.00,
+  validade: "30/08/2019"
+}
