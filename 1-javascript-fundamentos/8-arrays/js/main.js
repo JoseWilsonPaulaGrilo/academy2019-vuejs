@@ -51,3 +51,33 @@ const valorInicial = 0
 const somaDosNumeros = numeros.reduce((acumulador, valorAtual) => {
   return acumulador + valorAtual
 }, valorInicial)
+
+// find
+const debora = pessoas.find(pessoa=> {
+  pessoa.nome === "Deborah W. Coulter"
+})
+const idade = pessoas.find(pessoa=> {
+  pessoa.idade === 15
+})
+
+const produto = [
+  {
+    nome: "Bolacha",
+    tipo: "Doce",
+    qnt_estoque: 100
+  },
+  {
+    nome: "Macarrão",
+    tipo: "Massa",
+    qnt_estoque: 200
+  },
+  {
+    nome: "Xampu",
+    tipo: "Higiene",
+    qnt_estoque: 80
+  }
+]
+
+const produtos = produto.reduce((acumulador, valorInicial) => {
+  return acumulador + valorInicial;
+}, 0)
